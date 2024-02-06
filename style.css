@@ -101,9 +101,18 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
     .card {
+        margin: 0;
         width: 100%;
-        border-radius: 0;
+        border-radius: 5px;
         padding: 20px;
     }
 
