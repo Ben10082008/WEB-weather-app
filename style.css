@@ -116,19 +116,19 @@ body{
         margin-bottom: 10px;
     }
 
-   
 
     .weather-icon {
-        width: 100px;
+        width: 190px;
         margin-top: 20px;
+        height: 190px;
     }
 
     .weather h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .weather h2 {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .details {
@@ -142,6 +142,18 @@ body{
 
     .humidity,
     .wind {
+        font-size: 25px;
+    }
+
+    .wind{
+        margin-top: 20px;
+    }
+
+    .humidity_text{
+        font-size: 20px;
+    }
+
+    .wind_text{
         font-size: 20px;
     }
 }
